@@ -1,0 +1,62 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Press Start 2P', cursive;
+    text-decoration: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: linear-gradient(#12032d,#0b1a51,#030f3a,#020a26);
+}
+
+.parallax{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.parallax #waves{
+    padding-top: 30%;
+}
+
+.parallax #submarine{
+    padding-top: 30%;
+}
+.parallax img{
+    position: absolute;
+    pointer-events: none;
+}
+
+h2{
+    position: absolute;
+    font-size: 1.5em;
+    color: #fff;
+    text-shadow: 2px 4px 4px rgba(0, 0, 0, 2);
+}
+
+#level1{
+    position: relative;
+    top:0;
+    left:0;
+    width: 100vw;
+    height: 100vh;
+}
+
+#level2{
+    position: relative;
+    height:auto;
+}
+
+#level3{
+    position: relative;
+    height:auto;
+    width:100%;
+} 
